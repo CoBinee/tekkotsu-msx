@@ -1,6 +1,6 @@
 # 鉄骨のオルフェンズ
 
-[![Witches](http://img.youtube.com/vi/ouTtvf0ZrYI/0.jpg)](https://www.youtube.com/watch?v=ouTtvf0ZrYI)
+[![鉄骨のオルフェンズ](http://img.youtube.com/vi/ouTtvf0ZrYI/0.jpg)](https://www.youtube.com/watch?v=ouTtvf0ZrYI)
 
 ## 説明
 搭乗してください。<br>
