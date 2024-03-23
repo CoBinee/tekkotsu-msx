@@ -1,0 +1,25 @@
+crt0.rel    :   crt0.s
+main.rel    :   main.s \
+                bios.inc System.inc
+System.rel  :   System.s System.inc \
+                bios.inc vdp.inc
+App.rel     :   App.s App.inc \
+                bios.inc vdp.inc System.inc Title.inc Game.inc
+Title.rel   :   Title.s Title.inc \
+                bios.inc vdp.inc System.inc App.inc
+Game.rel    :   Game.s Game.inc \
+                bios.inc vdp.inc System.inc App.inc Pilot.inc Steel.inc
+Pilot.rel   :   Pilot.s Pilot.inc \
+                bios.inc vdp.inc System.inc App.inc Game.inc
+Steel.rel   :   Steel.s Steel.inc \
+                bios.inc vdp.inc System.inc App.inc Game.inc
+
+sprite.rel                  :   sprite.s
+LogoPatternName.rel         :   LogoPatternName.s
+LogoPatternGenerator.rel    :   LogoPatternGenerator.s
+LogoColor.rel               :   LogoColor.s
+BackPatternName.rel         :   BackPatternName.s
+BackPatternGenerator.rel    :   BackPatternGenerator.s
+BackColor.rel               :   BackColor.s
+FontPatternGenerator.rel    :   FontPatternGenerator.s
+FontColor.rel               :   FontColor.s
